@@ -1,16 +1,83 @@
-# React + Vite
+# 🛍️ React E-Commerce Homepage
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A modern and responsive e-commerce homepage built using React. This project demonstrates product listing, search functionality, filtering, sorting, and clean UI design using a real API.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🚀 Features
 
-## React Compiler
+* 🔍 Search Products
+* 🗂️ Category Filter
+* 💰 Price Sorting (Low → High / High → Low)
+* ⭐ Product Ratings Display
+* 📱 Responsive UI (Bootstrap)
+* 🌐 API Integration (DummyJSON)
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+---
 
-## Expanding the ESLint configuration
+## 🛠️ Tech Stack
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+* React.js
+* JavaScript (ES6+)
+* Bootstrap
+* REST API (DummyJSON)
+
+---
+
+## 📦 API Used
+
+* https://dummyjson.com/products
+
+---
+
+## 📸 Screenshots
+
+(Add your project screenshots here)
+
+---
+
+## ⚙️ Installation
+
+```bash
+git clone https://github.com/your-username/react-ecommerce-homepage.git
+cd react-ecommerce-homepage
+npm install
+npm start
+```
+
+---
+
+## 📁 Project Structure
+
+```
+src/
+ ├── components/
+ ├── Home.jsx
+ ├── App.jsx
+ └── index.js
+```
+
+---
+
+## 🎯 Learning Outcomes
+
+* API fetching using useEffect
+* State management using useState
+* Filtering and sorting logic
+* Building responsive UI
+* React Router navigation
+
+---
+
+## 🙋‍♂️ Author
+
+**Gautam Panda**
+
+* GitHub: https://github.com/gautam29-code
+* LinkedIn: https://www.linkedin.com/in/gautampanda-python/
+
+---
+
+## ⭐ Show Your Support
+
+If you like this project, please ⭐ the repository!
